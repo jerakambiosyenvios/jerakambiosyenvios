@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>SELECIONE EL PAIS DE SU PREFERENCIA</h1></center><br><br><br>
+
+    <a href="colombia.html"><button>COLOMBIA</button></a><BR></BR>
+    <a href="ecuador.html"><button>ECUADOR</button></a><br><br>
+    <select id="paginas" onchange="cambiarPagina(this)" style="margin: 20%;">
+        <option value="">Selecciona una página</option>
+        <option value="colombia.html">COLOMBIA</option>
+        <option value="index.html">MENU PRINCIPAL</option>
+        <option value="ecuador.html">ECUADOR</option>
+      </select>
+      
+      <script>
+      function cambiarPagina(select) {
+        var url = select.value;
+        if (url) {
+          window.location.href = url;
+        }
+      }
+      </script>
+      
+</body>
+</html>

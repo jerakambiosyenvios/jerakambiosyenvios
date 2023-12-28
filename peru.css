@@ -1,0 +1,73 @@
+/* Estilos para los títulos */
+h1 {
+    font-size: 36px;
+    /* Tamaño de fuente */
+    color: #333;
+    /* Color del texto */
+    text-align: center;
+    /* Alineación del texto */
+    border-radius: 50px;
+    /* Radio para lograr la forma ovalada */
+    background-color: #f0f0f0;
+    /* Color de fondo */
+    padding: 10px;
+    /* Espaciado interno */
+    margin: 10px 0;
+}
+
+h {
+    font-size: 36px;
+    /* Tamaño de fuente */
+    color: #ffffff;
+    /* Color del texto */
+    border-radius: 50px;
+    /* Radio para lograr la forma ovalada */
+    background-color: #f0f0f0;
+    /* Color de fondo */
+    padding: 10px;
+    /* Espaciado interno */
+    margin: 10px 0;
+}
+
+.formas {
+    padding: 8px 10px;
+    margin: 10px 0;
+    color: white;
+    border-radius: 20px;
+    background-color: #cc2611c4;
+    display: inline-block;
+}
+
+.bulleted-text {
+    list-style-type: square;
+    margin-left: 20px;
+    /* Espaciado a la izquierda para la lista */
+}
+
+.formas2 {
+    padding: 8px 10px;
+    margin: 5px 0;
+    height: auto;
+    border-radius: 20px;
+    background-color: #cc2611c4;
+    color: white;
+    display: inline-block;
+}
+
+.footer {
+    position: inherit;
+    left: 0;
+    bottom: 0;
+    background-color: #333;
+    /* Color de fondo del pie de página */
+    color: white;
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-size: xx-small;
+    margin: 12px 0;
+}
+.img{
+    width: 100%;
+    height: auto;
+}

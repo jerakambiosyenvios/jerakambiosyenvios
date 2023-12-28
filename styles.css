@@ -1,0 +1,44 @@
+/* styles.css */
+.about-us {
+  width: 100%;
+  height: auto;
+  background-color: #ff0000; /* Color de fondo del cuadrado */
+  color: rgb(255, 255, 255);
+  text-align: center; /* Centra el texto horizontalmente */
+  font-size: xx-small;
+
+  }
+  
+  /*.contenedor-articulo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }*/
+  
+ /* .articulo {
+    width: 100%; /* O ajusta según tus necesidades 
+    background: #ffffff;
+    /* ...otros estilos... 
+  }*/
+  
+  /* ...otros estilos para diferentes tamaños de pantalla... 
+  .contenedor1{
+    text-align: center;
+    
+  }
+  .prod{
+    background-color: blue;
+  }
+  .titulo{
+    background-color: rgb(145, 2, 2); color: aqua;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @media (max-width: 768px) {
+    /* Estilos para pantallas pequeñas */
+    /* ... */
+  
+  

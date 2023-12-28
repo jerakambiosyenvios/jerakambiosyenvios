@@ -1,0 +1,58 @@
+.cuadrado {
+    width: auto;
+    height: auto;
+    background-color: #272222af; /* Color de fondo del cuadrado */
+    color: rgb(255, 255, 255);
+    text-align: center; /* Centra el texto horizontalmente */
+    line-height: 20px; /* Alinea verticalmente el texto */
+    margin-bottom: 20px;
+}
+body{
+    background-image: url(png/PNG/CONTACTO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.cuadrado1{
+    width: 500px;
+    height: auto;
+    background-color: #272222af; /* Color de fondo del cuadrado */
+    color: rgb(255, 255, 255);
+    text-align: center; /* Centra el texto horizontalmente */
+    line-height: 20px; /* Alinea verticalmente el texto */
+    margin-bottom: 10px;
+}
+.footer {
+    position: inherit;
+    left: 0;
+    bottom: 0;
+    background-color: #333; /* Color de fondo del pie de página */
+    color: white;
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-size: xx-small;
+}
+.pag{
+    background-color: blue;
+  }
+  .tre{
+    text-align: center;
+    color: beige;
+  }
+  .cuadrado2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .ttt{
+    color: blue;
+    width: auto;
+  }

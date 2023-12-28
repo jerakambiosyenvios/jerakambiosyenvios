@@ -1,0 +1,11 @@
+body {
+    animation: colorchange 1s infinite;
+  }
+  
+  @keyframes colorchange {
+    0%   {background: rgb(255, 255, 254);}
+    25%  {background: rgb(255, 255, 255);}
+    50%  {background: rgb(255, 255, 255);}
+    75%  {background: rgb(255, 255, 255);}
+    100% {background: rgb(255, 255, 255);}
+  }
